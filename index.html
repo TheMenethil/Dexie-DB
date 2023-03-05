@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>App</title>
+
+        <link rel="icon" href="./assets/icon.png">
+        <link rel="stylesheet" href="./index.css">
+
+        <script src="./dexie.min.js"></script>
+    </head>
+    <body>
+        <div class="gradient-border">
+            <img id="image" src="./assets/placeholder.jpg">
+        </div>
+
+        <span id="itemId" style="color: lightgray;"></span>
+        <p id="description">___</p>
+
+        <button class="bubbly-button" id="generate" onclick="generate()">Fais nous rêver !</button>
+        <button class="bubbly-button" id="reset" onclick="reset(db)">RESET</button>
+
+        <script src="./index.js"></script>
+        <script src="./button.js"></script>
+    </body>
+</html>
